@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+
+gem 'capybara'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'cucumber'
+gem 'site_prism', '2.13'
+
+#bundle install
+#bundle exec cucumber

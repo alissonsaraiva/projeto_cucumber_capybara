@@ -1,0 +1,7 @@
+---
+
+default: --profile pretty -p prod --publish-quiet -p report
+pretty: --format pretty
+homolog: AMBIENTE=homolog
+prod: AMBIENTE=prod
+report: --format html --out=reports/relatorio.html
