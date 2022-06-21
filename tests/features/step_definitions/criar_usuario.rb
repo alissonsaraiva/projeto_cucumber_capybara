@@ -3,11 +3,11 @@ Quando('eu cadastro meu Usuário') do
     
     user.preencher_usuario()
 
-    sleep(5)
+    #sleep(5)
 
     user.criar.click
 
-    sleep(5)
+    #sleep(5)
 end
   
 Entao('eu verifico se o usuario foi cadastrado') do

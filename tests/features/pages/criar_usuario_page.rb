@@ -12,6 +12,7 @@ class User < SitePrism::Page
     element :criar, 'input[value="Criar"]'
 
     def preencher_usuario()
+        
         nome.set 'alisson'
         sobrenome.set 'saraiva'
         email.set 'alissonsaraiva@gmail.com'
